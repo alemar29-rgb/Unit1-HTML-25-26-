@@ -8,7 +8,7 @@
 <body>
     <h2>Contact Form</h2>
     <table>
-
+<form action="results.html" method="get">
         <tr>
             <!-- Username -->
             <td><label for="">UserName</label></td>
@@ -37,6 +37,17 @@
             <td><label for="">Website</label></td>
             <td> <input type="Url" name="website" id="webstie"></td>
         </tr>
+<tr>
+            <td>Date</td>
+            <td><input type="date" name="" value=""></td>
+             
+        </tr>
+                <!-- Time -->
+<tr>
+            <td>Time</td>
+            <td><input type="Time" name="" value=""></td>
+            
+        </tr>
 <!-- Multy Line Text -->
  
         <tr>
@@ -49,19 +60,24 @@
             <td><input type="radio" name="grade" value="9">9th</td>
             <td> <input type="radio" name="grade" value="10">10th</td>
         </tr>
-<!-- Date -->
+<!--  -->
 <tr>
-            <td>Date</td>
-            <td><input type="radio" name="grade" value="9">9th</td>
-            <td> <input type="radio" name="grade" value="10">10th</td>
-        </tr>
-        <!-- Time -->
-<tr>
-            <td>Time</td>
-            <td><input type="radio" name="grade" value="9">9th</td>
-            <td> <input type="radio" name="grade" value="10">10th</td>
-        </tr>
-    </table>
+<td>Favorate Sports
+<td>
+<select name="Sports" id="Sports">
+<option value=""selection disabled>Select a Sport</option>
+<option value="soccer">soccer</option>
+<option value="baseball">baseball</option>
+<option value="basketball">basketball</option>
+</select>
+</td>
+</tr>
+
+
     
+
+</form>
+    </table>
+    <button type="submit">submit</button>
 </body>
 </html>
